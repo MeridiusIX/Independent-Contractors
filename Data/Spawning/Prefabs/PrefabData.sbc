@@ -1,0 +1,99 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Incon-PrefabData-Easy</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]
+
+        [Prefabs:(NPC-INC) BC Corp P-100 Proton]
+        [Prefabs:(NPC-INC) RWI Muskrat SAR Shuttle]
+        [Prefabs:(NPC-INC) RWI Packmule]
+        [Prefabs:(NPC-INC) Gopher II Transport]
+
+        [Prefabs:(NPC-INC) DBS Lookout Tower]
+        [Prefabs:(NPC-INC) DBS Observation Outpost]
+
+        [CustomTags:Easy]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Incon-PrefabData-Medium</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]
+
+        [Prefabs:(NPC-INC) Gemini Mk I]
+        [Prefabs:(NPC-INC) Gremlin Assault]
+        [Prefabs:(NPC-INC) Gremlin Lite]
+        [Prefabs:(NPC-INC) Gremlin XL]
+        [Prefabs:(NPC-INC) RWI Amazonian]
+        [Prefabs:(NPC-INC) SS-11 Harpy]
+        [Prefabs:(NPC-INC) Super Gremlin]
+        [Prefabs:(NPC-INC) The Clanging Gremlin]
+        [Prefabs:(NPC-INC) The Scutler Mk 7]
+        [Prefabs:(NPC-INC) Ubumboo]
+        [Prefabs:(NPC-INC) WMI Hunchback Dropship]
+
+        [CustomTags:Medium]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Incon-PrefabData-Hard</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]
+
+        [Prefabs:(NPC-INC) SS-19 Serenity-X]
+        [Prefabs:(NPC-INC) SS-1 Serenity MK2]
+        [Prefabs:(NPC-INC) SC Rescisco]
+        [Prefabs:(NPC-INC) Intruder III Escort Carrier]
+        [Prefabs:(NPC-INC) Atom Heart (Ship)]
+        [Prefabs:(NPC-INC) AS-1 Stormfire]
+        [Prefabs:(NPC-INC) Simplicity 02]
+
+        [Prefabs:(NPC-INC) Atom Heart (Station)]
+
+        [CustomTags:Hard]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>Incon-PrefabData-Station</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Prefab Data]
+
+        [Prefabs:(NPC-INC) Atom Heart (Station)]
+        [Prefabs:(NPC-INC) DBS Observation Outpost]
+
+        [CustomTags:Station]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Factions>
+
+    <Faction Tag="INCON" Founder="Contractors">
+      <Id>
+        <TypeId>MyObjectBuilder_FactionDefinition</TypeId>
+        <SubtypeId>IndependentContractor</SubtypeId>
+      </Id>
+      <DisplayName>Independent Contractor</DisplayName>
+      <Description>Ships belonging to Independent Contractors follow no particular style or theme, since the pilots often own and operate these vessels. Contractors can be found on many planets and in outer space. Many of these contractors do not trust other factions and will become defensive if approached.</Description>
+      <IsDefault>true</IsDefault>
+      <DefaultRelation>Enemies</DefaultRelation>
+      <AcceptHumans>false</AcceptHumans>
+      <AutoAcceptMember>false</AutoAcceptMember>
+    </Faction>
+
+  </Factions>
+</Definitions>

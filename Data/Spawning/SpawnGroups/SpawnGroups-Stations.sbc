@@ -1,0 +1,177 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <!--
+    
+    
+    -->
+   
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Incon-SpawnGroup-DBSLookoutTower</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnGroupEnabled:true]
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
+        [FactionOverride:INCON]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>5.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-INC) DBS Lookout Tower">
+          <Position>
+            <X>0.0</X>
+            <Y>9.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-BasicInstallation</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Incon-SpawnGroup-DBSObservationOutpost</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
+        [FactionOverride:INCON]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:Incon-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-INC) DBS Observation Outpost">
+          <Position>
+            <X>0.0</X>
+            <Y>8.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-Installation</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-INC) DBS Lookout Tower">
+          <Position>
+            <X>200.0</X>
+            <Y>9</Y>
+            <Z>200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-BasicInstallation</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-INC) DBS Lookout Tower">
+          <Position>
+            <X>-200.0</X>
+            <Y>9</Y>
+            <Z>-200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-BasicInstallation</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-INC) Hired Gun">
+          <Position>
+            <X>-200.0</X>
+            <Y>300.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-Drone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-INC) Hired Gun">
+          <Position>
+            <X>200.0</X>
+            <Y>300.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-Drone</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>Incon-SpawnGroup-AtomHeartStation</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationLarge]
+        [FactionOverride:INCON]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+        [ManipulationGroups:Incon-Manipulation-Group]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-INC) Atom Heart (Station)">
+          <Position>
+            <X>0.0</X>
+            <Y>70.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-Installation</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-INC) DBS Lookout Tower">
+          <Position>
+            <X>200.0</X>
+            <Y>9</Y>
+            <Z>200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-BasicInstallation</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-INC) DBS Lookout Tower">
+          <Position>
+            <X>-200.0</X>
+            <Y>9</Y>
+            <Z>-200.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-BasicInstallation</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-INC) Hired Gun">
+          <Position>
+            <X>-200.0</X>
+            <Y>300.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-Drone</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-INC) Hired Gun">
+          <Position>
+            <X>200.0</X>
+            <Y>300.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>Incon-Behavior-Drone</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>
